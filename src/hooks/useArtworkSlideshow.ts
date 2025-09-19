@@ -73,7 +73,7 @@ export const useArtworkSlideshow = () => {
 
     const interval = setInterval(() => {
       nextArtwork();
-    }, 10000); // Change artwork every 10 seconds
+    }, 50000); // Change artwork every 10 seconds
 
     return () => clearInterval(interval);
   }, [isPlaying, nextArtwork, artworks.length]);
