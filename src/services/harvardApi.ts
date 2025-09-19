@@ -1,7 +1,7 @@
 import { ArtworkResponse } from '@/types/artwork';
 
 const BASE_URL = 'https://api.harvardartmuseums.org';
-const API_KEY = 'bb4d4d9e-e469-4b9b-83b1-a4e2a2c42b63'; // Harvard Art Museums free demo key
+const API_KEY = '43d1582a-cbbd-4829-b5c4-bbd5b682ae9e'; // Your Harvard Art Museums API key
 
 export class HarvardArtAPI {
   private static async fetchWithRetry(url: string, retries = 3): Promise<Response> {
