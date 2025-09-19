@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Gallery-specific color tokens
+        gallery: {
+          bg: "hsl(var(--gallery-bg))",
+          text: "hsl(var(--gallery-text))",
+          muted: "hsl(var(--gallery-text-muted))",
+          accent: "hsl(var(--gallery-accent))",
+          border: "hsl(var(--gallery-border))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
